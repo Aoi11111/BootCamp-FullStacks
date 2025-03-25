@@ -1,0 +1,130 @@
+@media screen and (max-width:700px){
+    header a{
+        position: relative;
+        bottom: 12px;
+        display: grid;
+    }
+    .owl-carousel{
+        margin-top: 67px;
+    }
+}
+
+:root{
+    --red:#E50914;
+    --black:#141414;
+    --grey:rgb(93, 93, 93);
+    --white:rgb(218, 218, 218);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--white);
+}
+a{
+    text-decoration: none;
+    padding: 9px;
+    margin: 4px;
+    color: var(--white);
+    
+}
+header a:hover{
+    background-color: var(--white);
+    border-radius: 38px;
+    color: var(--black);
+    padding: 9px;
+    border: none;
+}
+header a:focus{
+    background-color: var(--grey);
+    border-radius: 38px;
+} 
+
+header img{
+    width: 29px;
+    margin: 12px;
+}
+header select{
+    position: relative;
+    left: -92px;
+    background-color: none;
+}
+
+
+
+/*CLASSES____________________________________________*/
+header .logo{
+  font-family: ´Arial Black´, Times;
+  color: var(--red);
+  margin: 9px;
+  font-size: 25px;
+
+}
+header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 8px;
+   
+}
+.main-movie{
+    background:  linear-gradient(0deg, rgb(0, 0, 0, .99) 2%, rgb(0, 0, 0, .1)100%), url(./images/24133356890294.webp);
+    height: 560px;
+    border: 1px solid var(--white);
+    border-radius: 44px;
+    background-size: cover;
+    margin-left: 65px;
+    margin-right: 65px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.conteiner, .item{
+    margin: 23px;
+    
+}
+.title{
+    font-size: 30px;
+}
+.description{
+    width: 70%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.button{
+    border-radius: 38px;
+    background: linear-gradient(rgba(18, 18, 18, 0.675), rgba(18, 18, 18, 0.675));
+    border: none;
+    padding: 16px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: var(--white); 
+}
+.button:focus{
+    color: var(--black);
+    background:var(--white);
+}
+
+.box-manga{
+    height: 240px;
+    box-sizing: border-box;
+}
+.item img{
+    width: 220px;
+    border: 1px solid var(--black);
+    border-radius: 44px;  
+}
+.item{
+    font-size: 14px;
+}
+
+/*CLASSES____________________________________________*/
